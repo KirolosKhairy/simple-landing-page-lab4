@@ -1,0 +1,146 @@
+/* Section 1: Header */
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to bottom, #0099ff, #66ccff);
+    padding: 50px;
+    color: white;
+}
+
+.header-text span {
+    color: #f8f8f6;
+}
+
+.header-image img {
+    width: 250px;
+    height: auto;
+}
+
+
+.yellow-box {
+    display: inline-block; 
+    background-color: #FFC107; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+.yellow-box button {
+    background: none; 
+    border: none; 
+    color: #201b2d; 
+    font: inherit; 
+    cursor: pointer; 
+    padding: 0; 
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.yellow-box:hover {
+    background-color: #e0a800; 
+}
+
+
+
+/* Section 2: Blocks */
+.blocks {
+    text-align: center;
+    margin: 50px 0;
+    justify-self: space-evenly ;
+
+}
+
+.blocks-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.block {
+    background-color: transparent; 
+    box-shadow: none; 
+    border: none; 
+    padding: 0; 
+    text-align: center; 
+}
+
+.block img {
+    max-width: 60px; 
+    margin-bottom: 10px;
+}
+
+.block h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.block p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+/* Section 3: Form */
+.form-section {
+    background: #e0f7fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Section 4: Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #0099ff;
+    color: white;
+}
+
+
+body {
+
+
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
